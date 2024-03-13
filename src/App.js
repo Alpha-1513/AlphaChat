@@ -10,6 +10,17 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC0tAJwXX4WGiX-hhSe5Od-KjFwtfXOmwM",
+  authDomain: "alpha-chat-1513.firebaseapp.com",
+  databaseURL: "https://alpha-chat-1513-default-rtdb.firebaseio.com",
+  projectId: "alpha-chat-1513",
+  storageBucket: "alpha-chat-1513.appspot.com",
+  messagingSenderId: "381901534759",
+  appId: "1:381901534759:web:0bbf51253255ee2212c002",
+  measurementId: "G-E5MSY0Z895"
+};
   // your config
 })
 
